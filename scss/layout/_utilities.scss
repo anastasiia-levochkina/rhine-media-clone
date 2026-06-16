@@ -1,0 +1,13 @@
+
+.container {
+  max-width: var(--c-max);
+  margin: 0 auto;
+  padding: 0 var(--c-px);
+}
+
+.section { padding: var(--sec-py) 0; }
+
+.text-center { text-align: center; }
+.sec-center { text-align: center; }
+.sec-center .sec-sub { margin: 0 auto; }
+

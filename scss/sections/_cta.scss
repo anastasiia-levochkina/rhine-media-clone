@@ -1,0 +1,37 @@
+
+.cta-sec { background: var(--bg-0); padding: var(--sec-py) 0; }
+
+.cta-box {
+  background: linear-gradient(145deg, var(--bg-card) 0%, var(--bg-2) 100%);
+  border: 1px solid var(--gold-dim);
+  border-radius: var(--r-xl);
+  padding: 84px 60px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-box::before {
+  content: '';
+  position: absolute;
+  top: -120px; left: 50%;
+  transform: translateX(-50%);
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, var(--gold-dim) 0%, transparent 65%);
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.cta-box .sec-sub {
+  margin-bottom: 40px;
+}
+
+.cta-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+

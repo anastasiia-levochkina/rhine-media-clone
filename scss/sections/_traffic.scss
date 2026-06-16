@@ -1,0 +1,52 @@
+
+.traffic { background: var(--bg-1); }
+
+.src-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 52px;
+}
+
+.src-card {
+  background: var(--bg-card);
+  border: 1px solid var(--b0);
+  border-radius: var(--r-m);
+  padding: 26px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  text-align: center;
+  transition: var(--tf);
+}
+.src-card:hover {
+  border-color: var(--blue-lt);
+  background: var(--bg-card-h);
+  transform: translateY(-5px);
+  box-shadow: 0 14px 36px rgba(62,114,236,0.14);
+}
+
+.src-ico {
+  width: 52px; height: 52px;
+  background: var(--blue-dim);
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  flex-shrink: 0;
+}
+
+.src-name {
+  font-family: var(--f-head);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--t1);
+}
+
+.src-sub {
+  font-size: 0.72rem;
+  color: var(--t3);
+}
+

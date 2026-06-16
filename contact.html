@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — Rhine Media</title>
+  <meta name="description" content="Get in touch with Rhine Media — performance media buying agency. Start a cooperation or ask any question." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="logo">
+          <div class="logo-mark">RM</div>
+          <div class="logo-name">Rhine <span>Media</span></div>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html#verticals">Verticals</a></li>
+          <li><a href="index.html#traffic">Traffic Sources</a></li>
+          <li><a href="index.html#partners">Partners</a></li>
+          <li><a href="index.html#why-us">Why Us</a></li>
+          <li><a href="contact.html" class="is-active">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+          <a href="index.html" class="btn btn-ghost">Back to Home</a>
+          <a href="#contact-form" class="btn btn-primary">Send Message</a>
+          <button class="ham" id="ham" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mob-menu" id="mobMenu">
+    <span class="mob-close" id="mobClose">✕</span>
+    <a href="index.html#verticals" class="mob-link">Verticals</a>
+    <a href="index.html#traffic" class="mob-link">Traffic Sources</a>
+    <a href="index.html#partners" class="mob-link">Partners</a>
+    <a href="index.html#why-us" class="mob-link">Why Us</a>
+    <a href="contact.html" class="mob-link">Contact</a>
+    <a href="#contact-form" class="btn btn-primary mob-link mob-cta">Send Message</a>
+  </div>
+
+  <header class="page-hero contact-hero">
+    <div class="container">
+      <div class="eyebrow" data-a="up">Get in Touch</div>
+      <h1 data-a="up" data-d="1">Contact <span class="text-gold">Rhine Media</span></h1>
+      <p data-a="up" data-d="2">Ready to start? Have a question? Our team responds within 24 hours.</p>
+    </div>
+  </header>
+
+  <main class="page-body contact-body" id="contact-form">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-intro" data-a="left">
+          <h3>Let's Build Something<br><span class="text-gold">Profitable Together</span></h3>
+          <p>
+            Whether you're an advertiser looking to scale your offers, an affiliate network seeking a reliable
+            buying team, or a brand ready to expand globally — we want to hear from you.
+          </p>
+
+          <div class="cinfo-list">
+            <div class="cinfo-item">
+              <div class="cinfo-ico">✈</div>
+              <div class="cinfo-text">
+                <h4>Telegram</h4>
+                <a href="https://t.me/rhinemedia" target="_blank" rel="noopener">@rhinemedia</a>
+              </div>
+            </div>
+
+            <div class="cinfo-item">
+              <div class="cinfo-ico">✉</div>
+              <div class="cinfo-text">
+                <h4>Email</h4>
+                <a href="mailto:hello@rhine-media.com">hello@rhine-media.com</a>
+              </div>
+            </div>
+
+            <div class="cinfo-item">
+              <div class="cinfo-ico">💼</div>
+              <div class="cinfo-text">
+                <h4>Business Hours</h4>
+                <p>Mon - Fri · 09:00 - 20:00 CET</p>
+              </div>
+            </div>
+
+            <div class="cinfo-item">
+              <div class="cinfo-ico">⚡</div>
+              <div class="cinfo-text">
+                <h4>Response Time</h4>
+                <p>Typically within 2-4 business hours</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="contact-channels-label">Also available on</p>
+          <div class="contact-channels">
+            <span class="btn btn-ghost contact-channel">Skype</span>
+            <span class="btn btn-ghost contact-channel">WhatsApp</span>
+            <span class="btn btn-ghost contact-channel">LinkedIn</span>
+          </div>
+
+          <div class="map-stub-grid">
+            <div class="map-stub-grid-inner"></div>
+            <div class="map-stub-label">
+              <div class="map-stub-pin"></div>
+              <span>Rhine Media · Global Operations</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-card" data-a="right">
+          <h3>Send Us a Message</h3>
+          <form id="contactForm" novalidate>
+            <div class="form-row-2">
+              <div class="fg">
+                <label for="fname">First Name *</label>
+                <input type="text" id="fname" name="fname" placeholder="John" required>
+              </div>
+              <div class="fg">
+                <label for="lname">Last Name *</label>
+                <input type="text" id="lname" name="lname" placeholder="Smith" required>
+              </div>
+            </div>
+
+            <div class="fg">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" required>
+            </div>
+
+            <div class="fg">
+              <label for="company">Company / Brand</label>
+              <input type="text" id="company" name="company" placeholder="Your company name">
+            </div>
+
+            <div class="fg">
+              <label for="telegram">Telegram / Skype Handle</label>
+              <input type="text" id="telegram" name="telegram" placeholder="@yourusername">
+            </div>
+
+            <div class="fg">
+              <label for="vertical">Vertical / Niche *</label>
+              <select id="vertical" name="vertical" required>
+                <option value="" disabled selected>Select a vertical...</option>
+                <option value="dating">Dating</option>
+                <option value="nutra">Nutra / Health &amp; Beauty</option>
+                <option value="gambling">Gambling / Casino</option>
+                <option value="igaming">iGaming / Betting</option>
+                <option value="sweepstakes">Sweepstakes</option>
+                <option value="adult">Adult</option>
+                <option value="crypto">Crypto Offers</option>
+                <option value="mainstream">Mainstream / Other</option>
+              </select>
+            </div>
+
+            <div class="fg">
+              <label for="budget">Monthly Budget (USD)</label>
+              <select id="budget" name="budget">
+                <option value="" disabled selected>Select budget range...</option>
+                <option value="under5k">Under $5,000</option>
+                <option value="5k-20k">$5,000 - $20,000</option>
+                <option value="20k-50k">$20,000 - $50,000</option>
+                <option value="50k-100k">$50,000 - $100,000</option>
+                <option value="100k+">$100,000+</option>
+              </select>
+            </div>
+
+            <div class="fg">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" placeholder="Tell us about your offer, goals, GEOs and any other details that will help us understand your needs..." required></textarea>
+            </div>
+
+            <div class="fg consent-field">
+              <input type="checkbox" id="consent" name="consent" required>
+              <label for="consent">
+                I agree to the <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.
+                I consent to Rhine Media processing my data to respond to this enquiry.
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary contact-submit">
+              Send Message
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M1 7h12M7.5 1.5L13 7l-5.5 5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+
+            <div class="success-msg" id="successMsg">Your message has been sent! We'll get back to you within 2-4 business hours.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="faq-section">
+    <div class="container">
+      <div class="sec-center" data-a="up">
+        <div class="eyebrow">FAQ</div>
+        <h2 class="sec-title">Common <span class="text-gold">Questions</span></h2>
+        <p class="sec-sub">Everything you need to know before starting a cooperation with Rhine Media.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item" data-a="up" data-d="1">
+          <button class="faq-q" type="button" aria-expanded="false">
+            What verticals does Rhine Media specialise in?
+            <span class="faq-arrow">▾</span>
+          </button>
+          <div class="faq-a">
+            We specialise in Dating, Nutra, Gambling, iGaming, Sweepstakes, Adult, Crypto Offers and Mainstream verticals. Our team has deep domain expertise in each of these niches and maintains direct relationships with top publishers and affiliate networks across all major GEOs.
+          </div>
+        </div>
+
+        <div class="faq-item" data-a="up" data-d="2">
+          <button class="faq-q" type="button" aria-expanded="false">
+            What is the minimum monthly budget to work with you?
+            <span class="faq-arrow">▾</span>
+          </button>
+          <div class="faq-a">
+            We typically work with partners investing a minimum of $5,000/month in media spend. For certain verticals or exclusive deal structures, higher minimums may apply. Contact us to discuss your specific situation — we're flexible for the right partnerships.
+          </div>
+        </div>
+
+        <div class="faq-item" data-a="up" data-d="3">
+          <button class="faq-q" type="button" aria-expanded="false">
+            How quickly can you launch a campaign?
+            <span class="faq-arrow">▾</span>
+          </button>
+          <div class="faq-a">
+            Once we have all required materials (creatives, landing pages, offer details, tracking setup), we can typically launch campaigns within 24–48 hours. Our streamlined onboarding process ensures you're never waiting long to get traffic flowing.
+          </div>
+        </div>
+
+        <div class="faq-item" data-a="up" data-d="4">
+          <button class="faq-q" type="button" aria-expanded="false">
+            Do you work on a CPA, CPL or revenue share basis?
+            <span class="faq-arrow">▾</span>
+          </button>
+          <div class="faq-a">
+            We work across multiple pricing models including managed spend (flat fee + performance bonus), CPA, CPL, RevShare and hybrid structures. The right model depends on your vertical, volume and offer type. We'll recommend the most suitable approach during our initial consultation.
+          </div>
+        </div>
+
+        <div class="faq-item" data-a="up" data-d="5">
+          <button class="faq-q" type="button" aria-expanded="false">
+            Which GEOs do you cover?
+            <span class="faq-arrow">▾</span>
+          </button>
+          <div class="faq-a">
+            We have active campaigns running in 60+ GEOs worldwide, including all Tier-1 markets (US, UK, DE, AU, CA, FR), LATAM (BR, MX, CO), APAC (IN, PH, TH, JP), and MENA (AE, SA, EG). If you need a specific GEO, let us know and we'll confirm our capabilities.
+          </div>
+        </div>
+
+        <div class="faq-item" data-a="up" data-d="6">
+          <button class="faq-q" type="button" aria-expanded="false">
+            What reporting and tracking do you provide?
+            <span class="faq-arrow">▾</span>
+          </button>
+          <div class="faq-a">
+            All clients receive access to real-time performance dashboards with full transparency on impressions, clicks, conversions, spend and revenue. We integrate with all major tracking platforms including Voluum, Binom, RedTrack, and custom S2S postback setups. Weekly summary reports are provided as standard.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-cols">
+        <div>
+          <a href="index.html" class="logo">
+            <div class="logo-mark">RM</div>
+            <div class="logo-name">Rhine <span>Media</span></div>
+          </a>
+          <p class="fb-desc">Premium performance media buying for the world's most ambitious advertisers and affiliate partners. Built for scale. Optimised for ROI.</p>
+          <div class="footer-social">
+            <span class="soc-btn" aria-label="Telegram">✈</span>
+            <span class="soc-btn" aria-label="LinkedIn">in</span>
+            <span class="soc-btn" aria-label="Twitter / X">𝕏</span>
+            <span class="soc-btn" aria-label="Skype">☁</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="fc-head">Verticals</h4>
+          <ul class="fc-links">
+            <li><a href="index.html#verticals">Dating Traffic</a></li>
+            <li><a href="index.html#verticals">Nutra Campaigns</a></li>
+            <li><a href="index.html#verticals">Gambling / iGaming</a></li>
+            <li><a href="index.html#verticals">Sweepstakes</a></li>
+            <li><a href="index.html#verticals">Crypto Offers</a></li>
+            <li><a href="index.html#verticals">Adult</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="fc-head">Traffic Sources</h4>
+          <ul class="fc-links">
+            <li><a href="index.html#traffic">Google Ads</a></li>
+            <li><a href="index.html#traffic">Meta Ads</a></li>
+            <li><a href="index.html#traffic">TikTok Ads</a></li>
+            <li><a href="index.html#traffic">PropellerAds</a></li>
+            <li><a href="index.html#traffic">Native Ads</a></li>
+            <li><a href="index.html#traffic">Push &amp; Pop</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="fc-head">Company</h4>
+          <ul class="fc-links">
+            <li><a href="index.html#why-us">About Rhine Media</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="index.html#partners">Partners</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copy">© 2026 Rhine Media. All rights reserved. <span class="footer-domain">rhine-media.com</span></p>
+        <nav class="f-legal" aria-label="Legal">
+          <a href="terms.html">Terms</a>
+          <a href="privacy-policy.html">Privacy</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

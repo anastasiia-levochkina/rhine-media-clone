@@ -1,0 +1,50 @@
+
+.legal-wrap {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.legal-meta {
+  font-size: 0.83rem;
+  color: var(--t3);
+  background: var(--bg-card);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--r-s);
+  padding: 12px 16px;
+  margin-bottom: 44px;
+}
+
+.legal-wrap h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  font-family: var(--f-head);
+  color: var(--t1);
+  margin: 44px 0 16px;
+  padding-top: 4px;
+}
+.legal-wrap h2:first-child { margin-top: 0; }
+
+.legal-wrap p {
+  font-size: 0.94rem;
+  color: var(--t2);
+  line-height: 1.82;
+  margin-bottom: 16px;
+}
+
+.legal-wrap ul {
+  list-style: disc;
+  margin: 0 0 18px 22px;
+}
+.legal-wrap ul li {
+  font-size: 0.94rem;
+  color: var(--t2);
+  line-height: 1.78;
+  margin-bottom: 8px;
+}
+
+.legal-wrap a {
+  color: var(--gold-lt);
+  transition: color var(--tf);
+}
+.legal-wrap a:hover { color: var(--gold); }
+

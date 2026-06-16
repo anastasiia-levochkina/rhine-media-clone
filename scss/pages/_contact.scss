@@ -1,0 +1,345 @@
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.contact-intro h3 {
+  font-size: 1.55rem;
+  font-weight: 700;
+  font-family: var(--f-head);
+  margin-bottom: 14px;
+}
+.contact-intro p {
+  font-size: 0.93rem;
+  color: var(--t2);
+  line-height: 1.75;
+  margin-bottom: 40px;
+}
+
+.cinfo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-bottom: 40px;
+}
+
+.cinfo-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.cinfo-ico {
+  width: 42px; height: 42px;
+  background: var(--bg-card);
+  border: 1px solid var(--b0);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.cinfo-text h4 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--t3);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 4px;
+}
+.cinfo-text a,
+.cinfo-text p {
+  font-size: 0.92rem;
+  color: var(--t1);
+  transition: color var(--tf);
+}
+.cinfo-text a:hover { color: var(--gold); }
+
+
+.form-card {
+  background: var(--bg-card);
+  border: 1px solid var(--b0);
+  border-radius: var(--r-xl);
+  padding: 44px 40px;
+}
+
+.form-card h3 {
+  font-family: var(--f-head);
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.form-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.fg {
+  margin-bottom: 20px;
+}
+
+.fg label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--t2);
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+}
+
+.fg input,
+.fg select,
+.fg textarea {
+  width: 100%;
+  padding: 13px 15px;
+  background: var(--bg-2);
+  border: 1px solid var(--b1);
+  border-radius: var(--r-s);
+  color: var(--t1);
+  font-family: var(--f-body);
+  font-size: 0.91rem;
+  transition: var(--tf);
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.fg input:focus,
+.fg select:focus,
+.fg textarea:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(201,151,59,0.1);
+}
+
+.fg input::placeholder,
+.fg textarea::placeholder { color: var(--t3); }
+.fg textarea { resize: vertical; min-height: 130px; }
+.fg select option { background: var(--bg-2); color: var(--t1); }
+
+.map-stub {
+  margin-top: 36px;
+  height: 220px;
+  background: var(--bg-card);
+  border: 1px solid var(--b0);
+  border-radius: var(--r-l);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--t3);
+  font-size: 0.85rem;
+}
+.map-stub span { font-size: 2rem; }
+
+.contact-hero {
+  min-height: auto;
+}
+
+.contact-body {
+  background: var(--bg-0);
+}
+
+.contact-channels-label {
+  font-size: 0.83rem;
+  color: var(--t3);
+  margin-bottom: 8px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.contact-channels {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-channels .btn {
+  padding: 10px 18px;
+  font-size: 0.8rem;
+}
+
+.contact-channel {
+  cursor: default;
+}
+
+.map-stub-grid {
+  background: var(--bg-card);
+  border: 1px solid var(--b0);
+  border-radius: var(--r-l);
+  overflow: hidden;
+  margin-top: 36px;
+  position: relative;
+  height: 220px;
+}
+
+.map-stub-grid-inner {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(62,114,236,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(62,114,236,0.05) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.map-stub-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: var(--t3);
+  font-size: 0.83rem;
+  z-index: 1;
+}
+
+.map-stub-pin {
+  width: 32px;
+  height: 32px;
+  background: var(--gold-dim);
+  border: 1px solid var(--border-g);
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.map-stub-pin::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: var(--gold);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.consent-field {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.consent-field input {
+  width: auto;
+  margin-top: 3px;
+  flex-shrink: 0;
+  accent-color: var(--gold);
+}
+
+.consent-field label {
+  font-size: 0.8rem;
+  color: var(--t2);
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.consent-field a {
+  color: var(--gold-lt);
+}
+
+.contact-submit {
+  width: 100%;
+  justify-content: center;
+}
+
+.success-msg {
+  display: none;
+  background: rgba(60, 180, 100, 0.1);
+  border: 1px solid rgba(60, 180, 100, 0.3);
+  border-radius: var(--r-m);
+  padding: 18px 22px;
+  color: #6ee79a;
+  font-size: 0.93rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.success-msg.show {
+  display: block;
+}
+
+.faq-section {
+  padding: 90px 0;
+  background: var(--bg-0);
+}
+
+.faq-section .sec-sub {
+  margin: 0 auto 48px;
+}
+
+.faq-list {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--b0);
+  padding: 6px 0;
+}
+
+.faq-q {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 0;
+  font-family: var(--f-head);
+  font-size: 0.97rem;
+  font-weight: 600;
+  color: var(--t1);
+  text-align: left;
+  cursor: pointer;
+  transition: color var(--tf);
+}
+
+.faq-q:hover {
+  color: var(--gold-lt);
+}
+
+.faq-arrow {
+  width: 22px;
+  height: 22px;
+  background: var(--bg-card);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: var(--t2);
+  flex-shrink: 0;
+  transition: transform var(--tf), background var(--tf);
+}
+
+.faq-item.open .faq-arrow {
+  transform: rotate(180deg);
+  background: var(--gold-dim);
+  color: var(--gold);
+}
+
+.faq-a {
+  display: none;
+  padding: 0 0 20px;
+  font-size: 0.9rem;
+  color: var(--t2);
+  line-height: 1.75;
+}
+
+.faq-item.open .faq-a {
+  display: block;
+}
+

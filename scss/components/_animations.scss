@@ -1,0 +1,25 @@
+
+[data-a] {
+  opacity: 0;
+  transition: opacity 0.75s var(--ease), transform 0.75s var(--ease);
+}
+
+[data-a="up"]    { transform: translateY(28px); }
+[data-a="left"]  { transform: translateX(-28px); }
+[data-a="right"] { transform: translateX(28px); }
+[data-a="scale"] { transform: scale(0.92); }
+
+[data-a].vis {
+  opacity: 1;
+  transform: none;
+}
+
+[data-d="1"] { transition-delay: 0.08s; }
+[data-d="2"] { transition-delay: 0.16s; }
+[data-d="3"] { transition-delay: 0.24s; }
+[data-d="4"] { transition-delay: 0.32s; }
+[data-d="5"] { transition-delay: 0.40s; }
+[data-d="6"] { transition-delay: 0.48s; }
+[data-d="7"] { transition-delay: 0.56s; }
+[data-d="8"] { transition-delay: 0.64s; }
+
