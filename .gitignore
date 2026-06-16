@@ -2,18 +2,15 @@ node_modules/
 npm-debug.log*
 package-lock.json.tmp
 
-# Build/cache
 .sass-cache/
 .cache/
 dist/
 build/
 
-# OS/editor files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-# Local env
 .env
 .env.*
