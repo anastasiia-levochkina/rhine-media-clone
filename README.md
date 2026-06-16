@@ -2,6 +2,8 @@
 
 Static landing page for a media buying / performance marketing company.
 
+Test link - https://anastasiia-levochkina.github.io/rhine-media-clone/
+
 ## Pages
 
 - `index.html` - main landing page
